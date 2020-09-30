@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+	text-align: center;
+	line-height: 100px;
+	font-weight: normal;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	height: 100px;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 50px;
+	font-weight: 700;
+	color: steelblue;
+	background-color: beige;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+	cursor: pointer;
+	padding: 15px;
+	display: block;
+	width: 280px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.pallete {
+	width: 250px;
+	height: 250px;
+	background: purple;
+	margin: 1.66%;
+	border-radius: 15%;
+	text-align: center;
+	line-height: 250px;
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+}
+
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+.flex {
+	display: flex;
+	height: calc(100vh - 200px);
+	margin: 100px auto;
+	width: 800px;
+}
+
+.control {
+	width: 40%;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.color-input {
+	font-size: 20px;
+	margin-top: 20px;
+	line-height: 40px;
+	color: teal;
+	width: 280px;
+	text-align: center;
+}
+
+input {
+	font-size: 20px;
+	margin-top: 20px;
+	line-height: 40px;
+	padding-left: 20px;
+	color: teal;
+	width: 280px;
+}
